@@ -1,0 +1,5 @@
+config/google_config.php
+uploads/pengaduan/*
+!uploads/pengaduan/.gitkeep
+buat_admin.php
+.DS_Store

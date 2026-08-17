@@ -1,0 +1,72 @@
+:root {
+  --biru-dishub: #0B3D62;
+  --biru-tua: #072A45;
+  --emas: #C9A227;
+  --abu-terang: #F4F5F7;
+  --teks: #1E2226;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--abu-terang);
+  color: var(--teks);
+}
+
+/* KOP SURAT / HEADER RESMI */
+.kop-instansi {
+  background: linear-gradient(90deg, var(--biru-tua), var(--biru-dishub));
+  color: #fff;
+  border-bottom: 4px solid var(--emas);
+  padding: 14px 0;
+}
+.kop-instansi .logo-box {
+  width: 56px; height: 56px;
+  background: rgba(255,255,255,0.12);
+  border: 2px dashed rgba(255,255,255,0.4);
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 10px; text-align: center; color: rgba(255,255,255,0.7);
+}
+.kop-instansi .instansi-nama {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.3;
+  margin: 0;
+}
+.kop-instansi .instansi-sub {
+  font-size: 12.5px;
+  color: rgba(255,255,255,0.75);
+  margin: 0;
+}
+
+/* NAVBAR PETUGAS */
+.navbar-petugas {
+  background: var(--biru-tua) !important;
+}
+
+/* TOMBOL & AKSEN */
+.btn-success, .btn-primary {
+  background-color: var(--biru-dishub);
+  border-color: var(--biru-dishub);
+}
+.btn-success:hover, .btn-primary:hover {
+  background-color: var(--biru-tua);
+  border-color: var(--biru-tua);
+}
+.badge.bg-primary { background-color: var(--biru-dishub) !important; }
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+.footer-resmi {
+  background: var(--biru-tua);
+  color: rgba(255,255,255,0.7);
+  font-size: 12.5px;
+  padding: 18px 0;
+  text-align: center;
+  margin-top: 40px;
+}
